@@ -1,4 +1,4 @@
-import { UserIcon } from "@heroicons/react/24/outline"; // Import the icon
+import { UserIcon } from "@heroicons/react/24/outline"; 
 
 const techStack = [
   { name: "Javascript", color: "bg-blue-100", text: "text-blue-700" },
@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div className="max-w-xl w-full bg-[#ecfdf5] rounded-2xl shadow-md p-6 border border-green-200 font-bold font-[Inter] transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
       <div className="flex items-center mb-4">
-        <UserIcon className="h-6 w-6 text-green-700 mr-2" /> {/* Add the icon here */}
+        <UserIcon className="h-6 w-6 text-green-700 mr-2" />
         <h2 className="text-xl md:text-2xl font-semibold text-green-700">
           About The Developer
         </h2>

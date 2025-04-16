@@ -13,12 +13,12 @@ const Socials = () => {
           {
             src: "../../src/assets/github.png",
             alt: "GitHub",
-            href: "https://github.com/",
+            href: "https://github.com/waseem-basheer21",
           },
           {
             src: "../../src/assets/linkedin.png",
             alt: "LinkedIn",
-            href: "https://linkedin.com/",
+            href: "https://www.linkedin.com/in/waseem-basheer-0b2268262/",
           },
           {
             src: "../../src/assets/insta.png",

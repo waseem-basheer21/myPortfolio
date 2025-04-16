@@ -17,7 +17,7 @@ export default function SideBar({ isSidebarOpen, setIsSidebarOpen }) {
       animate={{ x: 0 }}
       exit={{ x: -300 }}
       transition={{ type: "tween", duration: 0.5, ease: "easeInOut" }}
-      className={`fixed lg:static top-0 left-0 h-full lg:h-screen w-64 lg:w-[18%] bg-[#e7e4e4] border-r border-green-500 shadow-md z-40 transform transition-transform duration-300 ease-in-out ${
+      className={`fixed lg:static top-0 left-0 h-full lg:h-[110vh] w-64 lg:w-[18%] bg-[#e7e4e4] border-r border-green-500 shadow-md z-40 transform transition-transform duration-300 ease-in-out ${
         isSidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
       }`}
     >

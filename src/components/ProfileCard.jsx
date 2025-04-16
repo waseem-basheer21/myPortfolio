@@ -25,8 +25,8 @@ const ProfileCard = () => {
           />
         </p>
         <p className="text-gray-600 max-w-md mt-2">
-          A software developer who loves crafting beautiful, fast, and
-          user-friendly websites.
+          A web developer who loves crafting beautiful, fast, and user-friendly
+          websites.
         </p>
       </div>
     </div>
