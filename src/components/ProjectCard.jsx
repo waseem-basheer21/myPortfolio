@@ -2,24 +2,34 @@ import React from "react";
 
 const projects = [
   {
-    title: "Dummy Project 1",
-    image: "../../src/assets/dummy.webp",
-    link: "https://example.com",
+    title: "Playlist-Curator",
+    image: "../../src/assets/playlist.jpg",
+    link: "https://curator-play-list-frontend.vercel.app/",
   },
   {
-    title: "Dummy Project 2",
-    image: "../../src/assets/dummy.webp",
-    link: "https://example.com",
+    title: "Far-Away",
+    image: "../../src/assets/trip.jpg",
+    link: "https://github.com/waseem-basheer21/far-away",
   },
   {
-    title: "Dummy Project 3",
-    image: "../../src/assets/dummy.webp",
-    link: "https://example.com",
+    title: "My-Gym",
+    image: "../../src/assets/gym.jpg",
+    link: "https://my-gym-waseem-basheers-projects.vercel.app/",
   },
   {
-    title: "Dummy Project 4",
-    image: "../../src/assets/dummy.webp",
-    link: "https://example.com",
+    title: "Fast-Pizza",
+    image: "../../src/assets/fast.jpg",
+    link: "https://github.com/waseem-basheer21/fast-pizza",
+  },
+  {
+    title: "Taskmate",
+    image: "../../src/assets/todo.jpg",
+    link: "https://github.com/waseem-basheer21/taskmate",
+  },
+  {
+    title: "Password-Generator",
+    image: "../../src/assets/password.jpg",
+    link: "https://github.com/waseem-basheer21/random-password-generator",
   },
 ];
 
@@ -39,7 +49,9 @@ const ProjectCard = () => {
               className="rounded-t-2xl w-full h-48 object-cover"
             />
             <div className="p-4 text-center">
-              <h3 className="text-xl font-semibold text-green-700">{project.title}</h3>
+              <h3 className="text-xl font-semibold text-green-700">
+                {project.title}
+              </h3>
               <a
                 href={project.link}
                 target="_blank"
