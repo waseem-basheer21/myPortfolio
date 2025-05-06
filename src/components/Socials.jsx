@@ -11,22 +11,22 @@ const Socials = () => {
       <ul className="flex justify-center gap-4 items-center">
         {[
           {
-            src: "../../src/assets/github.png",
+            src: "github.png",
             alt: "GitHub",
             href: "https://github.com/waseem-basheer21",
           },
           {
-            src: "../../src/assets/linkedin.png",
+            src: "linkedin.png",
             alt: "LinkedIn",
             href: "https://www.linkedin.com/in/waseem-basheer-0b2268262/",
           },
           {
-            src: "../../src/assets/insta.png",
+            src: "insta.png",
             alt: "Instagram",
             href: "https://instagram.com/",
           },
           {
-            src: "../../src/assets/facebook.png",
+            src: "facebook.png",
             alt: "Facebook",
             href: "https://facebook.com/",
           },

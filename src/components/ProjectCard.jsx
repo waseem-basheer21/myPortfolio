@@ -3,32 +3,32 @@ import React from "react";
 const projects = [
   {
     title: "Playlist-Curator",
-    image: "../../src/assets/playlist.jpg",
+    image: "playlist.jpg",
     link: "https://curator-play-list-frontend.vercel.app/",
   },
   {
     title: "Far-Away",
-    image: "../../src/assets/trip.jpg",
+    image: "trip.jpg",
     link: "https://github.com/waseem-basheer21/far-away",
   },
   {
     title: "My-Gym",
-    image: "../../src/assets/gym.jpg",
+    image: "gym.jpg",
     link: "https://my-gym-waseem-basheers-projects.vercel.app/",
   },
   {
     title: "Fast-Pizza",
-    image: "../../src/assets/fast.jpg",
+    image: "fast.jpg",
     link: "https://github.com/waseem-basheer21/fast-pizza",
   },
   {
     title: "Taskmate",
-    image: "../../src/assets/todo.jpg",
+    image: "todo.jpg",
     link: "https://github.com/waseem-basheer21/taskmate",
   },
   {
     title: "Password-Generator",
-    image: "../../src/assets/password.jpg",
+    image: "password.jpg",
     link: "https://github.com/waseem-basheer21/random-password-generator",
   },
 ];
